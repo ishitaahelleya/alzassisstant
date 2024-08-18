@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1478E5142C33540D00C84576 /* home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1478E5132C33540D00C84576 /* home.swift */; };
+		14A76DDC2C34A368004E4823 /* contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A76DDB2C34A368004E4823 /* contact.swift */; };
 		14EB900C2C252B830055BA9A /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EB900B2C252B830055BA9A /* Tests_iOS.swift */; };
 		14EB900E2C252B830055BA9A /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EB900D2C252B830055BA9A /* Tests_iOSLaunchTests.swift */; };
 		14EB90182C252B830055BA9A /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EB90172C252B830055BA9A /* Tests_macOS.swift */; };
@@ -17,6 +19,9 @@
 		14EB901E2C252B830055BA9A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EB8FF42C252B810055BA9A /* ContentView.swift */; };
 		14EB901F2C252B830055BA9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14EB8FF52C252B820055BA9A /* Assets.xcassets */; };
 		14EB90202C252B830055BA9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14EB8FF52C252B820055BA9A /* Assets.xcassets */; };
+		14EB90302C252EB10055BA9A /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EB902F2C252EB10055BA9A /* SignUpView.swift */; };
+		14EB90312C252EB10055BA9A /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EB902F2C252EB10055BA9A /* SignUpView.swift */; };
+		14EF5A412C36045800110352 /* map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EF5A402C36045800110352 /* map.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1478E5132C33540D00C84576 /* home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = home.swift; sourceTree = "<group>"; };
+		14A76DDB2C34A368004E4823 /* contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = contact.swift; sourceTree = "<group>"; };
 		14EB8FF32C252B810055BA9A /* AlzAssistantApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlzAssistantApp.swift; sourceTree = "<group>"; };
 		14EB8FF42C252B810055BA9A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		14EB8FF52C252B820055BA9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +56,8 @@
 		14EB90132C252B830055BA9A /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		14EB90172C252B830055BA9A /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		14EB90192C252B830055BA9A /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		14EB902F2C252EB10055BA9A /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		14EF5A402C36045800110352 /* map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = map.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +95,9 @@
 		14EB8FED2C252B810055BA9A = {
 			isa = PBXGroup;
 			children = (
+				14A76DDB2C34A368004E4823 /* contact.swift */,
+				1478E5132C33540D00C84576 /* home.swift */,
+				14EF5A402C36045800110352 /* map.swift */,
 				14EB8FF22C252B810055BA9A /* Shared */,
 				14EB90012C252B820055BA9A /* macOS */,
 				14EB900A2C252B830055BA9A /* Tests iOS */,
@@ -99,6 +111,7 @@
 			children = (
 				14EB8FF32C252B810055BA9A /* AlzAssistantApp.swift */,
 				14EB8FF42C252B810055BA9A /* ContentView.swift */,
+				14EB902F2C252EB10055BA9A /* SignUpView.swift */,
 				14EB8FF52C252B820055BA9A /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -299,7 +312,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14EF5A412C36045800110352 /* map.swift in Sources */,
 				14EB901D2C252B830055BA9A /* ContentView.swift in Sources */,
+				14EB90302C252EB10055BA9A /* SignUpView.swift in Sources */,
+				1478E5142C33540D00C84576 /* home.swift in Sources */,
+				14A76DDC2C34A368004E4823 /* contact.swift in Sources */,
 				14EB901B2C252B830055BA9A /* AlzAssistantApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,6 +326,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				14EB901E2C252B830055BA9A /* ContentView.swift in Sources */,
+				14EB90312C252EB10055BA9A /* SignUpView.swift in Sources */,
 				14EB901C2C252B830055BA9A /* AlzAssistantApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -468,6 +486,8 @@
 				DEVELOPMENT_TEAM = X4LY67W7PW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "This app requires access to the device's location";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app requires access to the device's location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -498,6 +518,8 @@
 				DEVELOPMENT_TEAM = X4LY67W7PW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "This app requires access to the device's location";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app requires access to the device's location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -525,6 +547,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -553,6 +576,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
